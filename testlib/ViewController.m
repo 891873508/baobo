@@ -129,6 +129,7 @@ void STDCALL CallBack_EncodeAudioData(const char *pData, int nSize, void *pUserD
     // Do any additional setup after loading the view, typically from a nib.
     
     bSnapshot = YES;
+    self.view.backgroundColor = [UIColor redColor];
     
     // render view
     float h = 220;//self.view.frame.size.width*9/16;
